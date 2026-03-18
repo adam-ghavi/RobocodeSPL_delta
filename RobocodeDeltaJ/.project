@@ -25,12 +25,18 @@
 			<arguments>
 			</arguments>
 		</buildCommand>
+		<buildCommand>
+			<name>org.deltaecore.core.decoredialect.resource.decoredialect.builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
 	</buildSpec>
 	<natures>
 		<nature>de.tu_bs.cs.isf.deltaj.resource.deltaj.nature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.deltaecore.suite.mapping.resource.demapping.nature</nature>
 		<nature>org.deltaecore.core.decore.resource.decore.nature</nature>
+		<nature>org.deltaecore.core.decoredialect.resource.decoredialect.nature</nature>
 	</natures>
 	<filteredResources>
 		<filter>

@@ -1,3 +1,21 @@
+LinearTargeting:
+<decore/LinearTargeting.decore>
+
+NoFireGun:
+<decore/NoFireGun.decore>
+
+HeadOnTargeting:
+<decore/HeadOnTargeting.decore>
+
+MaximumPowerGun:
+<decore/MaximumPowerGun.decore>
+
+MouseClickGun:
+<decore/MouseClickGun.decore>
+
+MouseTargeting:
+<decore/MouseTargeting.decore>
+
 NoMovement:
 <decore/Quiet.decore>
 
@@ -21,3 +39,6 @@ WeakestSelectEnemy:
 
 StrongestSelectEnemy:
 <decore/StrongestSelectEnemy.decore>
+
+MouseRadar:
+<decore/MouseRadar.decore>
