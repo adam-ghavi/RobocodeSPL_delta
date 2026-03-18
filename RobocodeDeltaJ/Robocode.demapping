@@ -42,3 +42,6 @@ StrongestSelectEnemy:
 
 MouseRadar:
 <decore/MouseRadar.decore>
+
+Module:
+<decore/Module.decore>

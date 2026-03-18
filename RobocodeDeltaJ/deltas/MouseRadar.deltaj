@@ -11,7 +11,7 @@ delta MouseRadar {
 		adds int aimX;
 		adds int aimY;
 	
-		adds listenInput(InputEvent e) {
+		adds public void listenInput(InputEvent e) {
 			if (e instanceof MouseEvent) {
 				aimX = ((MouseEvent) e).getX();
 				aimY = ((MouseEvent) e).getY();

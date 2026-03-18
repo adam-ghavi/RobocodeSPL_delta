@@ -11,7 +11,7 @@
 ");
 	addMember(<class:jab.module.Radar>, "int aimY;
 ");
-	addMember(<class:jab.module.Radar>, "listenInput(InputEvent e) {
+	addMember(<class:jab.module.Radar>, "public void listenInput(InputEvent e) {
 			if (e instanceof MouseEvent) {
 				aimX = ((MouseEvent) e).getX();
 				aimY = ((MouseEvent) e).getY();

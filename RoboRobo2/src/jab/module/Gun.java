@@ -1,0 +1,23 @@
+package jab.module;
+
+import jab.module.Gun;
+import jab.module.Module;
+
+/**
+ * Gun
+ * 
+ * @author jab
+ */
+public class Gun extends Part {
+
+	public Module bot;
+
+	public Gun(Module bot) {
+		this.bot = bot;
+	}
+
+	public void fire() {
+		bot.bulletPower = 0;
+	}
+
+}
