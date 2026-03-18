@@ -3,3 +3,21 @@ NoMovement:
 
 SpinningRadar:
 <decore/SpinningRadar.decore>
+
+Line:
+<decore/LineMovement.decore>
+
+Cornering:
+<decore/CorneringMovement.decore>
+
+KeyboardMovement:
+<decore/KeyboardMovement.decore>
+
+ClosestSelectEnemy:
+<decore/ClosestSelectEnemy.decore>
+
+WeakestSelectEnemy:
+<decore/WeakestSelectEnemy.decore>
+
+StrongestSelectEnemy:
+<decore/StrongestSelectEnemy.decore>
