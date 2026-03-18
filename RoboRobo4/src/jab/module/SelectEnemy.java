@@ -18,13 +18,13 @@ public class SelectEnemy extends Part {
 
 	public void select() {
 		Iterator<BotInfo> iterator = bot.botsInfo.values().iterator();
-		double minDistance = Double.MAX_VALUE;
+		double maxDistance = 0.0;
 		BotInfo selected = null;
 		while (iterator.hasNext()) {
 			BotInfo botInfo = iterator.next();
-			if ((!botInfo.teammate) && minDistance > botInfo.distance) {
+			if ((!botInfo.teammate) && maxDistance < botInfo.distance) {
 				selected = botInfo;
-				minDistance = botInfo.distance;
+				maxDistance = botInfo.distance;
 			}
 		}
 		bot.enemy = selected;

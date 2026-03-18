@@ -34,6 +34,9 @@ KeyboardMovement:
 ClosestSelectEnemy:
 <decore/ClosestSelectEnemy.decore>
 
+FurthestSelectEnemy:
+<decore/FurthestSelectEnemy.decore>
+
 WeakestSelectEnemy:
 <decore/WeakestSelectEnemy.decore>
 
