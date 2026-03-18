@@ -14,16 +14,7 @@ public class Movement extends Part {
 	}
 
 	public void move() {
-		bot.setMaxVelocity(8);
-		bot.setAhead(10000 * moveDirection);
-	}
-
-	private int moveDirection = 1;
-
-	public void listen(robocode.Event e) {
-		if (e instanceof robocode.HitWallEvent) {
-			moveDirection *= -1;
-		}
+		bot.setAhead(0.0001);
 	}
 
 }
